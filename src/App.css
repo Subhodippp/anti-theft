@@ -1,0 +1,50 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* CarStatus.css */
+
+.car-status {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.status-icon img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.status-message p {
+  margin: 5px 0;
+}
+
+/* LiveLocation.css */
+
+.live-location {
+  text-align: center;
+}
+
+/* Adjust the map container */
+#map {
+  width: 100%; /* Make the map container fill the width */
+  height: 100%;
+}
+
+#map-container {
+  width: 100% ; /* Adjust to fill the remaining space */
+  height: 65%;
+}
